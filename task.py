@@ -1,13 +1,12 @@
 #Создать и заполнить файл случайными целыми значениями. Выполнить сортировку содержимого файла по возрастанию.
 
 import random
-k = 5
-sp = []
-for i in range(k):
-    sp.append(random.randint(1,k))
-print (sp)
-sort_sp=sorted(sp)
-print (sort_sp)
+list = []
+for i in range(10):
+    list.append(random.randint(1,100))
+print (list)
+sort_list=sorted(list)
+print (sort_list)
 #--------------------------------------------------------------------------------------------------
 #Найти НОК двух чисел
 
